@@ -1,0 +1,54 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgba(22, 126, 56, 0.534);
+}
+img {
+    max-width: 100%;
+}
+iframe {
+    max-width: 100%;
+    margin-left: 3em;
+}
+
+.header {
+    max-width: 100%;
+    
+}
+.nav__bar {
+    margin: 0 auto;
+    
+}
+.nav__list {
+    list-style: none;
+    line-height: 2rem;
+    display: flex;
+    gap: 2em;
+    justify-content: space-around;
+    
+}
+.main {
+    display: flex;
+    gap: 10em;
+    margin-top: 6em;
+}
+.sidebar__section {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.video__title {
+    margin-left: 2em;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.video__views {
+    margin-left: 3em;
+    margin-top: -1em;
+    color: black;
+}
